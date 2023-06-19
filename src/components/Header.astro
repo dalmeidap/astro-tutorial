@@ -1,0 +1,21 @@
+---
+import Navigation from './Navigation.astro';
+import Hamburger from './Hamburger.astro';
+---
+
+<style>
+    header {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+</style>
+
+<header>
+    <nav>
+        <ul>
+            <li><strong>Astro Blog</strong></li>
+        </ul>
+        <Hamburger />
+        <Navigation />
+    </nav>
+</header>
