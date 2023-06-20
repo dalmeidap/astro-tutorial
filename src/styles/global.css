@@ -22,6 +22,10 @@ h1 {
 
 /* nav styles */
 
+.header-right {
+    display: flex;
+}
+
 .hamburger {
     padding-right: 20px;
     cursor: pointer;
@@ -42,6 +46,7 @@ h1 {
     background-color: #ff9776;
     display: none;
     margin: 0;
+    flex-shrink: 0;
 }
 
 .nav-links a {

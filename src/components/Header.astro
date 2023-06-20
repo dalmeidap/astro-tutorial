@@ -1,6 +1,7 @@
 ---
 import Navigation from './Navigation.astro';
 import Hamburger from './Hamburger.astro';
+import ThemeIcon from './ThemeIcon.astro';
 ---
 
 <style>
@@ -16,6 +17,9 @@ import Hamburger from './Hamburger.astro';
             <li><strong>Astro Blog</strong></li>
         </ul>
         <Hamburger />
-        <Navigation />
+        <div class="header-right">
+            <Navigation />
+            <ThemeIcon />
+        </div>
     </nav>
 </header>
